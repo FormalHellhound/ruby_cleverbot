@@ -25,7 +25,7 @@ class RubyCleverbot
   attr_reader :data
   attr_reader :conversation
 
-  def initialize(botapi, lang: 'ru', uc: '3210')
+  def initialize(botapi, lang: 'en', uc: '777')
     @api_url = "#{HOST}/#{RESOURCE}?uc=#{uc}&botapi=#{botapi}"
 
     @data = {
